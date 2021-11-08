@@ -5,34 +5,31 @@ lang: en
 keywords: Resume,Hexo,Resume Theme
 description: This is a cool resume theme for hexo.
 # Resume Title
-resume_title: Jon Snow's Resume
+resume_title: Chai Shi's Resume
 # Job Applicant Name
-name: Jon Snow
+name: Chai Shi
 avatar: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png
 # Contact
 contact:
   # URL
   - icon: fas fa-globe-europe
-    text: https://resume.js.org
-    url: https://resume.js.org
+    text: https://github.com/iknowright
+    url: https://github.com/iknowright
   # Email
   - icon: fas fa-envelope
     text: your email
-    url:
-  # Phone Number
-  - icon: fas fa-phone-alt
-    text: 1xxxxxxxxxx
-    url: tel:10086
+    url: changchaishi@gmail.com
+
 # PDF Download Link
 download:
   title: Download
   icon: fas fa-download fa-fw
-  url: https://github.com/xaoxuu/resume-docs
+  url: https://github.com/iknowright
 ---
 
 {% raw %}
 <center>
-<a href='/'>English</a> | <a href='/zh-cn/'>简体中文</a>
+<a href='/'>English</a> | <a href='/zh-tw/'>繁體中文</a>
 </center>
 {% endraw %}
 
@@ -41,13 +38,13 @@ download:
 
 Please directly download the source code of this site and refer to the source code for rewriting.
 
-- Site Source code: https://github.com/xaoxuu/resume-docs
+- Site Source code: https://github.com/iknowright
 - Theme source code: https://github.com/xaoxuu/hexo-theme-resume
 
 
 ## <i class="fas fa-user-graduate"></i> Education
 
-**XX University X College X Course X Major X Graduation**
+**National Cheng Kung University X Computer Science and Information Engineering**
 
 
 ## <i class="fas fa-user-tie"></i> Work Experience
@@ -78,11 +75,11 @@ Please directly download the source code of this site and refer to the source co
 </a>
 <a href='https://apps.apple.com/cn/app/c%E5%85%BB%E8%80%81/id1458315594'>
   <img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/het-cyanglao/icon.png'>
-  C养老
+  C養老
 </a>
 <a href='https://apps.apple.com/cn/app/c-life%E5%85%BB%E8%80%81/id1393937890'>
   <img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/het-clife/icon.png'>
-  C-Life养老
+  C-Life養老
 </a>
 <a href='https://apps.apple.com/cn/app/linksmart/id1109303355'>
   <img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/ht-linksmart/icon.png'>
@@ -94,7 +91,7 @@ Please directly download the source code of this site and refer to the source co
 </a>
 <a href='https://apps.apple.com/cn/app/%E8%85%95%E8%83%BD%E5%8A%A9%E6%89%8B/id1138242219'>
   <img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/ht-fiyta/icon.png'>
-  飞亚达腕能助手
+  飛亞達腕能助手
 </a>
 </btns><br>
 {% endraw %}
@@ -125,19 +122,19 @@ Please directly download the source code of this site and refer to the source co
 
 #### 2017 ~ Present, a wonderful blog theme for Hexo 4.2
 
-- 完全自由的模块化、易于定制化设计
-- 移动端优化
-- 源码：https://github.com/xaoxuu/hexo-theme-volantis
-- 官网：https://volantis.js.org/
+- 完全自由的模塊化、易於定制化設計
+- 移動端優化
+- 源碼：https://github.com/xaoxuu/hexo-theme-volantis
+- 官網：https://volantis.js.org/
 
 ### ProHUD
 
 #### 2019/08 ~ present, HUD library with easy customization and simple interface
 
-- 使用Swift5编写。
-- 包含顶部通知横幅、弹窗、底部操作表三种使用场景的UI控件。
-- 易于配置UI从而满足公司各业务线的UI要求，接口调用简单明了。
-- 源码：https://github.com/xaoxuu/ProHUD
+- 使用Swift5編寫。
+- 包含頂部通知橫幅、彈窗、底部操作表三種使用場景的UI控件。
+- 易於配置UI從而滿足公司各業務線的UI要求，接口調用簡單明了。
+- 源碼：https://github.com/xaoxuu/ProHUD
 
 <fancybox>
 <img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/screenshot01.png'>
@@ -155,7 +152,7 @@ Please directly download the source code of this site and refer to the source co
 
 ## <i class="fas fa-phone-alt"></i> Contact
 
-目前状态为：在职，考虑换工作，100年内可到岗。
+目前狀態為：在職，考慮換工作，100年內可到崗。
 
 <i class="fas fa-envelope fa-fw"></i> your email
 <i class="fas fa-phone-alt fa-fw"></i> 1xxxxxxxxxx
