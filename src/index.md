@@ -8,7 +8,7 @@ description: MS CSIE Student at National Cheng Kung University
 resume_title: Chai Shi's Resume
 # Job Applicant Name
 name: Chang Chai Shi
-avatar: /ccs-resume-docs/images/avatar.jpg
+avatar: {% asset_img images/avatar.jpg %}
 # Contact
 contact:
   # URL
@@ -49,7 +49,7 @@ MS Computer Science and Information Engineering - Sep 2020 ~ Present
 {% raw %}
 <btns rounded>
 <a href='https://fastapi.tiangolo.com/'>
-  <img src='/ccs-resume-docs/images/logo/fastapi.png'>
+  <img src='{% asset_img images/logo/fastapi.png %}'>
   FastAPI
 </a>
 </btns><br>
@@ -81,18 +81,18 @@ MS Computer Science and Information Engineering - Sep 2020 ~ Present
 {% raw %}
 <btns rounded>
 <a href='https://flutter.dev/'>
-  <img src='/ccs-resume-docs/images/logo/flutter.png'>
+  <img src='{% asset_img images/logo/flutter.png %}'>
   Flutter
 </a>
 <a href='https://www.bluetooth.com/bluetooth-resources/intro-to-bluetooth-gap-gatt/'>
-  <img src='/ccs-resume-docs/images/logo/bluetooth.png'>
+  <img src='{% asset_img images/logo/bluetooth.png %}'>
   BLE
 </a>
 </btns><br>
 {% endraw %}
 
 <fancybox>
-<img src='/ccs-resume-docs/images/project/wrist-app.png'>
+<img src='{% asset_img images/project/wrist-app.png %}'>
 </fancybox>
 
 
@@ -104,26 +104,26 @@ MS Computer Science and Information Engineering - Sep 2020 ~ Present
 {% raw %}
 <btns rounded>
 <a href='https://docs.gitlab.com/ee/ci/'>
-  <img src='/ccs-resume-docs/images/logo/gitlab.png'>
+  <img src='{% asset_img images/logo/gitlab.png %}'>
   Gitlab CI
 </a>
 <a href='https://www.raspberrypi.org/'>
-  <img src='/ccs-resume-docs/images/logo/raspberry.png'>
+  <img src='{% asset_img images/logo/raspberry.png %}'>
   Raspberry Pi
 </a>
 <a href='https://www.docker.com/'>
-  <img src='/ccs-resume-docs/images/logo/docker.png'>
+  <img src='{% asset_img images/logo/docker.png %}'>
   Docker
 </a>
 <a href='https://github.com/shellhub-io'>
-  <img src='/ccs-resume-docs/images/logo/shellhub.png'>
+  <img src='{% asset_img images/logo/shellhub.png %}'>
   Shellhub
 </a>
 </btns><br>
 {% endraw %}
 
 <fancybox>
-<img src='/ccs-resume-docs/images/project/wrist-collect.png'>
+<img src='{% asset_img images/project/wrist-collect.png %}'>
 </fancybox>
 
 ### Energy Trading Platform
@@ -134,18 +134,18 @@ MS Computer Science and Information Engineering - Sep 2020 ~ Present
 {% raw %}
 <btns rounded>
 <a href='https://ethereum.org/en/'>
-  <img src='/ccs-resume-docs/images/logo/ethereum.png'>
+  <img src='{% asset_img images/logo/ethereum.png %}'>
   Ethereum
 </a>
 <a href='https://flask.palletsprojects.com/en/2.0.x/'>
-  <img src='/ccs-resume-docs/images/logo/flask.png'>
+  <img src='{% asset_img images/logo/flask.png %}'>
   Flask
 </a>
 </btns><br>
 {% endraw %}
 
 <fancybox>
-<img src='/ccs-resume-docs/images/project/energy-trading.png'>
+<img src='{% asset_img images/project/energy-trading.png %}'>
 </fancybox>
 
 ### Automated Ovitrap System
@@ -157,20 +157,20 @@ MS Computer Science and Information Engineering - Sep 2020 ~ Present
 {% raw %}
 <btns rounded>
 <a href='https://aws.amazon.com/'>
-  <img src='/ccs-resume-docs/images/logo/aws.png'>
+  <img src='{% asset_img images/logo/aws.png %}'>
   AWS
 </a>
 <a href='https://www.djangoproject.com/'>
-  <img src='/ccs-resume-docs/images/logo/django.png'>
+  <img src='{% asset_img images/logo/django.png %}'>
   django
 </a>
 </btns><br>
 {% endraw %}
 
 <fancybox>
-<img src='/ccs-resume-docs/images/project/ovitrap-1.png'>
-<img src='/ccs-resume-docs/images/project/ovitrap-2.png'>
-<img src='/ccs-resume-docs/images/project/ovitrap-3.png'>
+<img src='{% asset_img images/project/ovitrap-1.png %}'>
+<img src='{% asset_img images/project/ovitrap-2.png %}'>
+<img src='{% asset_img images/project/ovitrap-3.png %}'>
 </fancybox>
 
 ## <i class="fas fa-certificate"></i> Certification
