@@ -127,7 +127,7 @@ neat_enable: true
 
 deploy:
   type: git
-  repo: https://github.com/iknowright/ccs-resume-docs.git
+  repo: git@github.com:iknowright/ccs-resume-docs.git
   branch: gh-pages
   message: update resume
 
