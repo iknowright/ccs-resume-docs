@@ -1,21 +1,23 @@
 # Hexo Configuration
 
 # Site
-language: zh-CN
+language: zh-TW
 
-shortcut_icon: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png
-favicon: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png
-avatar: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png
+shortcut_icon: /images/avatar.jpg
+favicon: /images/avatar.jpg
+avatar: /images/avatar.jpg
 
-# 主题
+# Theme
 theme: resume
 theme_config:
   robots: index,follow
+  copyright: '[Copyright © 2021 Chai-Shi Chang](/)'
+
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-# url: https://resume.js.org
-url: http://localhost:4000
-root: /
+url: https://iknowright.github.io/ccs-resume-docs
+# url: http://127.0.0.1:4000/ccs-resume-docs
+root: /ccs-resume-docs/
 permalink: posts/:title/
 tag_dir: tags
 archive_dir: archives
@@ -38,7 +40,7 @@ max_open_file: 100
 multi_thread: true
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 highlight:
   enable: true
   line_number: false
@@ -115,56 +117,19 @@ import:
   - "<link rel='apple-touch-icon' type='image/png' sizes='180x180' href='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/favicon/apple-touch-icon.png'>"
   - "<link rel='mask-icon' color='#1BC3FB' href='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/favicon/safari-pinned-tab.svg'>"
   - "<link rel='manifest' href='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/favicon/site.webmanifest'>"
-  # script:
 
-# Offline
-## Config passed to sw-precache
-## https://github.com/JLHwung/hexo-offline
-# offline config passed to sw-precache.
-offline:
-  maximumFileSizeToCacheInBytes: 10485760
-  staticFileGlobs:
-    - public/**/*.{js,html,css,png,jpg,gif,svg,eot,ttf,woff,woff2}
-  stripPrefix: public
-  verbose: true
-  runtimeCaching:
-    - urlPattern: /*
-      handler: cacheFirst
-      options:
-        origin: cdn.jsdelivr.net
-    - urlPattern: /*
-      handler: cacheFirst
-      options:
-        origin: cdnjs.cloudflare.com
 
 nofollow:
   enable: true
-  exclude:
-    - xaoxuu.com
-
 
 # npm i hexo-neat
 neat_enable: true
 
-
-
-# 图片懒加载
-lazyload:
-  enable: true
-  onlypost: false
-  loadingImg: https://img.vim-cn.com/92/d570170f4f12e1ee829ca0e85a7dffeb77343a.svg
-
-
-# 百度统计key
-# baidu_analytics_key: cd037d28d6a6eaf5b81b7c9b024741cc
-
-# Deployment
-## Docs: http://zespia.tw/hexo/docs/deployment.html
 deploy:
-  - type: git
-    repo: https://github.com/xaoxuu/resume.js.org.git
-    branch: master
-    message: update pages
+  type: git
+  repo: git@github.com:iknowright/ccs-resume-docs.git
+  branch: gh-pages
+  message: update resume
 
 feed:
   type: atom

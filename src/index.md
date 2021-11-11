@@ -3,197 +3,179 @@
 lang: en
 # Site Keywords & Description
 keywords: Resume,Hexo,Resume Theme
-description: This is a cool resume theme for hexo.
+description: MS CSIE Student at National Cheng Kung University
 # Resume Title
-resume_title: Jon Snow's Resume
+resume_title: Chai Shi's Resume
 # Job Applicant Name
-name: Jon Snow
-avatar: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png
+name: Chang Chai Shi
+avatar: images/avatar.jpg
 # Contact
 contact:
   # URL
   - icon: fas fa-globe-europe
-    text: https://resume.js.org
-    url: https://resume.js.org
+    text: Github
+    url: https://github.com/iknowright
   # Email
   - icon: fas fa-envelope
-    text: your email
-    url:
-  # Phone Number
-  - icon: fas fa-phone-alt
-    text: 1xxxxxxxxxx
-    url: tel:10086
+    text: changchaishi@gmail.com
+    url: changchaishi@gmail.com
+
 # PDF Download Link
-download:
-  title: Download
-  icon: fas fa-download fa-fw
-  url: https://github.com/xaoxuu/resume-docs
+# download:
+#   title: Download
+#   icon: fas fa-download fa-fw
+#   url: https://github.com/iknowright
 ---
 
-{% raw %}
-<center>
-<a href='/'>English</a> | <a href='/zh-cn/'>简体中文</a>
-</center>
-{% endraw %}
 
+## <i class="fas fa-flag"></i> Summary
 
-## <i class="fas fa-flag"></i> Getting Started
-
-Please directly download the source code of this site and refer to the source code for rewriting.
-
-- Site Source code: https://github.com/xaoxuu/resume-docs
-- Theme source code: https://github.com/xaoxuu/hexo-theme-resume
-
+Fresh computer science postgraduate with strong hands-on experience in backend design, testing, linting, and provisioning. Equipped fundamental but diverse skill set such as mobile development, DevOps, IoT, and Blockchain. Passionate about software development and various technical skill.
 
 ## <i class="fas fa-user-graduate"></i> Education
 
-**XX University X College X Course X Major X Graduation**
-
+**National Cheng Kung University**
+BS Computer Science and Information Engineering - Sep 2016 ~ Jun 2020
+MS Computer Science and Information Engineering - Sep 2020 ~ Present
 
 ## <i class="fas fa-user-tie"></i> Work Experience
 
+#### Jul 2021 ~ Oct 2021 - NextDrive - Software Engineer Intern
 
-#### 2000 ~ Present: Company XX
-
-- Mainly responsible for XXX
-
-#### 1900 ~ 2000: Company XX
-
-- Mainly responsible for XXX
-
-#### 1800 ~ 1900: company XX
-
-- Mainly responsible for XXX
-
-
-
-## <i class="fas fa-award"></i> Featured Projects
-
+- Development of heatstroke alert service integrated with corporate API
+- Deployed backend and frontend using reverse proxy with SSL support
+- Integrate CI/CD pipeline with gitlab ci and Ansible
 
 {% raw %}
 <btns rounded>
-<a href='https://apps.apple.com/cn/app/heart-mate-pro-hrm-utility/id1463348922?ls=1'>
-  <img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/heartmate/icon.png'>
-  心率管家
-</a>
-<a href='https://apps.apple.com/cn/app/c%E5%85%BB%E8%80%81/id1458315594'>
-  <img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/het-cyanglao/icon.png'>
-  C养老
-</a>
-<a href='https://apps.apple.com/cn/app/c-life%E5%85%BB%E8%80%81/id1393937890'>
-  <img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/het-clife/icon.png'>
-  C-Life养老
-</a>
-<a href='https://apps.apple.com/cn/app/linksmart/id1109303355'>
-  <img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/ht-linksmart/icon.png'>
-  LinkSmart
-</a>
-<a href='https://apps.apple.com/cn/app/hitfit/id1207738581'>
-  <img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/ht-hitfit/icon.png'>
-  HitFit
-</a>
-<a href='https://apps.apple.com/cn/app/%E8%85%95%E8%83%BD%E5%8A%A9%E6%89%8B/id1138242219'>
-  <img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/ht-fiyta/icon.png'>
-  飞亚达腕能助手
+<a href='https://fastapi.tiangolo.com/'>
+  <img src='images/logo/fastapi.png'>
+  FastAPI
 </a>
 </btns><br>
 {% endraw %}
 
+#### Mar 2020 ~ Mar 2021 - Nintingale AI - Research Assistant and Software Engineer
 
-### Project A
+- Development of various Line chat bots with interactive user interface (Flex message, LIFF)
+- Build BLE central gateways (RPi) for smart wrist data collection. Use Shellhub and docker to handle multiple devices orchestration and deployment
+- Develop iOS and Android apps (Flutter) for smart wristband users. Handling Bluetooth events and use the DevOps pipeline (Gitlab-CI) for apps staging and publishing
+- Setup blockchain private network (Ethereum geth) and built web explorer
+- Research in a time-series algorithm for anomaly detection
 
-#### 2000/01 ~ 2019/01: Developed by XX company, team project, maintenance so far
+#### AUG 2018 - Skymizer - Project Developer
+- Implement ONNX library to help AI in edge devices
+- Strengthen C language coding skills
+- Master version control system (git) to collaborate with the team
+- Improve problem solving skill
+- Experience a day in life of a software engineer
 
-啦啦啦
+## <i class="fas fa-award"></i> Featured Projects
 
-### Project B
+### Smart Wrist Data Collection (iOS and Android)
+- Use Flutter to implement multi-platform apps
+- Use bluetooth to receive wristband data
+- Integrate database and notification system
+- Manage and publish the app
 
-#### 1900/01 ~ 2000/01: Developed by XX company
-
-啦啦啦
-
-### Project C
-
-#### 1800/01 ~ 1900/01: Developed by XX company
-
-啦啦啦
-
-## <i class="fab fa-github"></i> Open Source Contributions
-
-
-### Volantis
-
-#### 2017 ~ Present, a wonderful blog theme for Hexo 4.2
-
-- 完全自由的模块化、易于定制化设计
-- 移动端优化
-- 源码：https://github.com/xaoxuu/hexo-theme-volantis
-- 官网：https://volantis.js.org/
-
-### ProHUD
-
-#### 2019/08 ~ present, HUD library with easy customization and simple interface
-
-- 使用Swift5编写。
-- 包含顶部通知横幅、弹窗、底部操作表三种使用场景的UI控件。
-- 易于配置UI从而满足公司各业务线的UI要求，接口调用简单明了。
-- 源码：https://github.com/xaoxuu/ProHUD
+{% raw %}
+<btns rounded>
+<a href='https://flutter.dev/'>
+  <img src='images/logo/flutter.png'>
+  Flutter
+</a>
+<a href='https://www.bluetooth.com/bluetooth-resources/intro-to-bluetooth-gap-gatt/'>
+  <img src='images/logo/bluetooth.png'>
+  BLE
+</a>
+</btns><br>
+{% endraw %}
 
 <fancybox>
-<img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/screenshot01.png'>
-<img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/screenshot02.png'>
-<img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/screenshot03.png'>
-<img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/screenshot04.png'>
-<img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/screenshot05.png'>
-<img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/screenshot06.png'>
-<img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/screenshot07.png'>
-<img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/screenshot08.png'>
-<img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/screenshot09.png'>
-<img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/screenshot10.png'>
+<img src='images/project/wrist-app.png'>
 </fancybox>
 
 
-## <i class="fas fa-phone-alt"></i> Contact
+### Smart Wristband Data Collection (Raspberry Pi)
+- Use Raspberry Pi to receive BLE notification event
+- Collect data and upload to private cloud
+- Multiple IoT devices orchestration via Shellhub
+- Integrated with CI/CD pipeline (Docker)
+{% raw %}
+<btns rounded>
+<a href='https://docs.gitlab.com/ee/ci/'>
+  <img src='images/logo/gitlab.png'>
+  Gitlab CI
+</a>
+<a href='https://www.raspberrypi.org/'>
+  <img src='images/logo/raspberry.png'>
+  Raspberry Pi
+</a>
+<a href='https://www.docker.com/'>
+  <img src='images/logo/docker.png'>
+  Docker
+</a>
+<a href='https://github.com/shellhub-io'>
+  <img src='images/logo/shellhub.png'>
+  Shellhub
+</a>
+</btns><br>
+{% endraw %}
 
-目前状态为：在职，考虑换工作，100年内可到岗。
+<fancybox>
+<img src='images/project/wrist-collect.png'>
+</fancybox>
 
-<i class="fas fa-envelope fa-fw"></i> your email
-<i class="fas fa-phone-alt fa-fw"></i> 1xxxxxxxxxx
-
-
-
-## Theme Config
-
-```yaml
-cdn:
-  # These base libraries cannot be deleted
-  jquery: https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js
-  vue: https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.min.js
-  # When these CDN resources are deleted, local resources are loaded.
-  common: https://cdn.jsdelivr.net/gh/xaoxuu/hexo-theme-resume@1.0.0/source/js/common.js
-  escape: https://cdn.jsdelivr.net/gh/xaoxuu/hexo-theme-resume@1.0.0/source/js/css.escape.js
-  smooth_scroll: https://cdn.jsdelivr.net/gh/xaoxuu/hexo-theme-resume@1.0.0/source/js/smooth-scroll.min.js
-  css: https://cdn.jsdelivr.net/gh/xaoxuu/hexo-theme-resume@1.0.0/source/css/style.min.css
-  # Optional plug-in: image zoom
-  fancybox:
-    css: https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css
-    js: https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js
-
-# robots meta tag
-robots: noindex,nofollow
-
-# the footer of your site
-copyright: '[Copyright © 2017-2020 Mr. X](https://xaoxuu.com)'
-```
-
-## Comments
+### Energy Trading Platform
+- Backend development of green energy trading system for BEMS (Building Electric Management System)
+- Implement Ethereum Smart Contract to store trading transactions
+- Building Ethereum private chain using POA
 
 {% raw %}
-<script src="https://utteranc.es/client.js"
-        repo="xaoxuu/hexo-theme-resume"
-        issue-number="17"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
+<btns rounded>
+<a href='https://ethereum.org/en/'>
+  <img src='images/logo/ethereum.png'>
+  Ethereum
+</a>
+<a href='https://flask.palletsprojects.com/en/2.0.x/'>
+  <img src='images/logo/flask.png'>
+  Flask
+</a>
+</btns><br>
 {% endraw %}
+
+<fancybox>
+<img src='images/project/energy-trading.png'>
+</fancybox>
+
+### Automated Ovitrap System
+- Implement mosquito larvae counting automation system using IoT devices
+- Leverage serverless cloud computing for event-driven jobs
+- Build both frontend and backend of information system
+- Addon tools to improve user experience
+
+{% raw %}
+<btns rounded>
+<a href='https://aws.amazon.com/'>
+  <img src='images/logo/aws.png'>
+  AWS
+</a>
+<a href='https://www.djangoproject.com/'>
+  <img src='images/logo/django.png'>
+  django
+</a>
+</btns><br>
+{% endraw %}
+
+<fancybox>
+<img src='images/project/ovitrap-1.png'>
+<img src='images/project/ovitrap-2.png'>
+<img src='images/project/ovitrap-3.png'>
+</fancybox>
+
+## <i class="fas fa-certificate"></i> Certification
+- AWS Certified Cloud Practitioner
+
+
+---
+`Last Modified: 2021/11/08`
