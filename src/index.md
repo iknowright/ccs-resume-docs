@@ -175,7 +175,11 @@ MS Computer Science and Information Engineering - Sep 2020 ~ Present
 
 ## <i class="fas fa-certificate"></i> Certification
 - AWS Certified Cloud Practitioner
+- AWS Certified Solution Architect - Associate
 
+{% raw %}
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="65f5c7fd-ed2c-425e-9225-f9e481f516e6" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+{% endraw %}
 
 ---
-`Last Modified: 2021/11/08`
+`Last Modified: 2021/11/11`
