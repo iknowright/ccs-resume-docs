@@ -15,8 +15,8 @@ theme_config:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-# url: https://resume.js.org
 url: https://iknowright.github.io/ccs-resume-docs
+# url: http://127.0.0.1:4000/ccs-resume-docs
 root: /ccs-resume-docs/
 permalink: posts/:title/
 tag_dir: tags
@@ -40,7 +40,7 @@ max_open_file: 100
 multi_thread: true
 filename_case: 0
 render_drafts: false
-post_asset_folder: true
+post_asset_folder: false
 highlight:
   enable: true
   line_number: false
